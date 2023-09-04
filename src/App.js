@@ -1,10 +1,12 @@
-import React from "react";
-import Pizza from "./components/Pizza";
+import { Header, Menu, Footer } from "./components/index";
+import "./App.css";
 
 export const App = () => {
   return (
     <div>
-      <Pizza />
+      <Header />
+      <Menu />
+      <Footer />
     </div>
   );
 };
