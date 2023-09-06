@@ -5,7 +5,7 @@ const Pizza = ({ name, photoName, ingredients, price, soldOut }) => {
       <div>
         <h3>{name}</h3>
         <p>{ingredients}</p>
-        <span>{price}</span>
+        <span>{!soldOut ? price : "SOLD OUT"}</span>
       </div>
     </div>
   );
